@@ -32,3 +32,10 @@ torchvision==0.16.0+cu118
 util==0.0.1
 ```
 
+### **注意：**
+
+- torch的版本torch==2.1.0+cu118，CUDA的版本是11.8
+- **train.py**用于训练
+- **segmentation.py**用于预测
+- **save_weight**目录用于保存训练模型权重的目录
+- **results**目录用于保存预测结果
